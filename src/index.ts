@@ -1,5 +1,5 @@
-const { app, port } = require('./app');
-const { startDB } = require('./utils/startDB');
+import { app, port } from './app';
+import { startDB } from './utils/startDB';
 
 const startApp = async (): Promise<void> => {
   await startDB();
