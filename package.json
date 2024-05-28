@@ -7,7 +7,7 @@
     "start": "node ./src/index.ts",
     "dev": "nodemon ./src/index.ts",
     "watch": "tsc -w",
-    "build": "tsc -p . --outDir dist",
+    "build": "tsc -p . --outDir public",
     "test": "jest --detectOpenHandles",
     "lint": "eslint . --ext .ts"
   },
